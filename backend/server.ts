@@ -44,6 +44,10 @@ app.post('/api/movies', express.json(), (req, res) => {
     }
 });
 
+app.get('/sus', (req, res) => {
+    res.send('ඞ');
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
