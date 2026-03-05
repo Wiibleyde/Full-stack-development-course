@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Movie } from '../types/Movie';
 
 interface MovieTableProps {
